@@ -1,4 +1,4 @@
-#Transcription Helper
+# Transcription Helper
 
 Convert MS Word's audio transcription into a more readable format
 
@@ -10,22 +10,25 @@ This script will search for speakers names and squash their dialogue into a
 single paragraph. It removes the timestamps however certain timestamps can be left 
 if desired. Lastly, it formats the document with HTML tags for use on a website. 
 
-##Dependencies
+## Dependencies
 
  - regex
  - tkinter
  
-##Installing
+## Installing
 
 Clone repository into its own directory
 
-##Executing program
+## Executing program
 
 Run program using
 
 ```
 python main.py
 ```
+
+File directory will open and ask for a txt file to convert. The selected 
+file wil be processed produce a new file in the same directory
 
 License
 
