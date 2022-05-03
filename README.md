@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Transcription Helper
 
 Convert MS Word's audio transcription into a more readable format
@@ -30,6 +32,6 @@ python main.py
 File directory will open and ask for a txt file to convert. The selected 
 file wil be processed produce a new file in the same directory
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
