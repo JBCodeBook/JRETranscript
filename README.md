@@ -1,56 +1,32 @@
-oject Title
+#Transcription Helper
 
-Simple overview of use/purpose.
-Description
+Convert MS Word's audio transcription into a more readable format
 
-An in-depth paragraph about your project and overview of use.
-Getting Started
-Dependencies
+## Description
 
-    Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-    ex. Windows 10
+This is a helper script that can be used to convert the word document 
+produced by MS words audio transcription service into an easier format. 
+This script will search for speakers names and squash their dialogue into a 
+single paragraph. It removes the timestamps however certain timestamps can be left 
+if desired. Lastly, it formats the document with HTML tags for use on a website. 
 
-Installing
+##Dependencies
 
-    How/where to download your program
-    Any modifications needed to be made to files/folders
+ - regex
+ - tkinter
+ 
+##Installing
 
-Executing program
+Clone repository into its own directory
 
-    How to run the program
-    Step-by-step bullets
+##Executing program
 
-code blocks for commands
+Run program using
 
-Help
-
-Any advise for common problems or issues.
-
-command to run if program contains helper info
-
-Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie
-ex. @DomPizzie
-Version History
-
-    0.2
-        Various bug fixes and optimizations
-        See commit change or See release history
-    0.1
-        Initial Release
+```
+python main.py
+```
 
 License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-Acknowledgments
-
-Inspiration, code snippets, etc.
-
-    awesome-readme
-    PurpleBooth
-    dbader
-    zenorocha
-    fvcproductions
+This project is licensed under the MIT License - see the LICENSE.md file for details
