@@ -62,7 +62,7 @@ def main():
 
     remove_timestamp = regex.compile("(?<=\d\d:\d\d:\d\d(\s))(.*)" + "\s{0,2}")
 
-    # Remove the timestamps in the document and find all speakers in document
+    # Remove the timestamps in the document and find all speakers
     with open(filename, 'r') as input_file:
         x = input_file.readlines()
 
